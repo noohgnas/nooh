@@ -3,6 +3,7 @@ set editing-mode vi
 set keymap vi
 
 $ cat ~/.bash_profile 
+alias ll='ls -G'
 alias ll='ls -la'
 alias his='history'
 alias grep='grep -i --color=auto'
