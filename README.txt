@@ -1,15 +1,4 @@
-$ cat ~/.inputrc 
-set editing-mode vi
-set keymap vi
-
-$ cat ~/.bash_profile 
-alias ll='ls -G'
-alias ll='ls -la'
-alias his='history'
-alias grep='grep -i --color=auto'
-
-case "$TERM" in
-    xterm-color) color_prompt=yes;;
-esac
-
-export PS1="\[\e]0;\w\a\]\[\e[32m\]\u@\h \[\e[33m\]\w\[\e[0m\]\n\$ "
+.inputrc 터미널 입력 모드 변경
+.bash_profile .bashrc 같은 거
+.vimrc vim 설정
+envsetup.sh cgrep 때문에 저장
