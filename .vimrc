@@ -51,3 +51,4 @@ set ignorecase " 검색시 대소문자 무시, set ic 도 가능
 set lbr
 set incsearch "  키워드 입력시 점진적 검색
 filetype indent on "  파일 종류에 따른 구문강조
+set ws " warp search
